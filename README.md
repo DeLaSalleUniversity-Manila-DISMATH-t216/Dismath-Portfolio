@@ -10,9 +10,17 @@
 - Assignment
 -31c
 
-| p | q | -q | p v -q | (p v -q) → q |
+  | p | q | -q | p v -q | (p v -q) → q |
 | :--- | :---:| ---: | ---: | ---: |
 | T | F | T | T | F |
 | F | T | F | F | T |
 | T | T | F | T | T |
 | F | F | T | T | F |
+
+-33d
+| p | q | -p | p ↔ q | p ↔ q | (p ↔ q)  (-p ↔ q)|
+| :--- | :---:| ---: | ---: | ---: | ---: |
+| T | F | F | F | T | T |
+| F | T | T | F | T | T |
+| T | T | F | T | F | T |
+| F | F | T | T | F | T |
